@@ -22,7 +22,6 @@ jobs:
       - name: Tests loki
         run: |
           npm run test
-          npm run update
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
