@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build --test --quiet",
-    "test": "npx loki test --requireReference --reactUri file:./storybook-static"
+    "test": "npx loki test --requireReference --reactUri file:./storybook-static",
+    "update": "npx loki update --requireReference --reactUri file:./storybook-static"
   },
   "dependencies": {
     "react": "^18.3.1",
