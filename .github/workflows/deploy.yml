@@ -17,6 +17,7 @@ jobs:
 
       - name: Tests loki
         run: |
+          npm run storybook
           npm run test
 
       - name: Deploy 🚀
