@@ -1,8 +1,11 @@
 import React from "react";
 
-// параграф текста (с разными стилями - обычный, цитата, полужирный)
-export const ImageComponent = ({ type, src }) => {
-
-    return (<img align={type} src={src} className={"imageComponent"}/>);
-
+// картинка (с вариантами обтекания)
+export const ImageComponent = ({ type, src, text }) => {
+    return (
+        <>
+            {text}
+            <img align={type} src={src} className={"imageComponent"}/>
+        </>
+    );
 };
