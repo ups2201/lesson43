@@ -1,0 +1,11 @@
+.paragraphComponent-quote {
+    font-style: italic;
+}
+
+.paragraphComponent-bold {
+    font-weight: bold;
+}
+
+.paragraphComponent {
+    font-style: normal;
+}
