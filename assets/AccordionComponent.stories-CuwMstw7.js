@@ -1,0 +1,6 @@
+import{j as e}from"./jsx-runtime-CkxqCPlQ.js";import{R as c}from"./index-DJO9vBfz.js";class i extends c.Component{constructor(s){super(s),this.state={isToggleOn:!1},this.handleClick=this.handleClick.bind(this)}handleClick(){this.setState(s=>({isToggleOn:!s.isToggleOn}))}render(){return e.jsxs("p",{onClick:this.handleClick,className:"accordionComponent",children:[e.jsx("b",{children:this.props.title}),e.jsx("br",{}),e.jsx("span",{hidden:this.state.isToggleOn,children:this.props.text})]})}}i.__docgenInfo={description:"",methods:[{name:"handleClick",docblock:null,modifiers:[],params:[],returns:null}],displayName:"AccordionComponent",props:{title:{required:!0,tsType:{name:"string"},description:""},text:{required:!0,tsType:{name:"string"},description:""}}};const p={component:i},t={args:{title:"Заголовок компонента",text:"Схлопывающийся текст"}};var n,r,o;t.parameters={...t.parameters,docs:{...(n=t.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    title: "Заголовок компонента",
+    text: "Схлопывающийся текст"
+  }
+}`,...(o=(r=t.parameters)==null?void 0:r.docs)==null?void 0:o.source}}};const m=["Accordion"];export{t as Accordion,m as __namedExportsOrder,p as default};
