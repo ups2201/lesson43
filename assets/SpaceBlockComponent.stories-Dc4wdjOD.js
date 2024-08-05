@@ -1,0 +1,3 @@
+import{j as e}from"./jsx-runtime-CGpYA4L6.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";const r=({})=>e.jsxs("div",{children:[e.jsx("br",{}),e.jsx("hr",{})]});try{r.displayName="SpaceBlockComponent",r.__docgenInfo={description:"",displayName:"SpaceBlockComponent",props:{}}}catch{}const d={component:r},o={args:{}};var c,s,a;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {}
+}`,...(a=(s=o.parameters)==null?void 0:s.docs)==null?void 0:a.source}}};const i=["SpaceBlock"];export{o as SpaceBlock,i as __namedExportsOrder,d as default};
