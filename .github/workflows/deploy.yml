@@ -27,3 +27,10 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: ./storybook-static # The folder the action should deploy.
+
+      - name: Archive screenshots
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v1
+        with:
+          name: screenshots
+          path: .loki
