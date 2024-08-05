@@ -15,9 +15,12 @@ jobs:
           npm ci
           npm run build-storybook
 
-      - name: Tests loki
+      - name: Run storybook
         run: |
           npm run storybook
+
+      - name: Tests loki
+        run: |
           npm run test
 
       - name: Deploy 🚀
